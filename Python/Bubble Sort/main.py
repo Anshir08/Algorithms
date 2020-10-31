@@ -17,6 +17,7 @@ def bubble_sort(list_to_sort):
 
 
 # Test sorting method
-unsorted_list = [2, 4, 1, 3, 7, 5, 6]
+n = int(input('Enter size of the list'))
+unsorted_list = [int(input(i) for i in range(n)]
 sorted_list = bubble_sort(unsorted_list)
 print (f"Sorted list is: {', '.join([str(n) for n in sorted_list])}")
